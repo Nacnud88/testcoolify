@@ -6,7 +6,7 @@ def create_app():
 
     @app.get("/")
     def index():
-        return "Flask is alive!"
+        return "Flask is alive! But I'm dead"
 
     @app.get("/api/health")
     def health():
